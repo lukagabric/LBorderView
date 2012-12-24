@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B4E6A61688722C00F3F951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6A51688722C00F3F951 /* Foundation.framework */; };
+		A1B4E6B81688726F00F3F951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6B71688726F00F3F951 /* UIKit.framework */; };
+		A1B4E6BA1688727800F3F951 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6B91688727700F3F951 /* QuartzCore.framework */; };
+		A1B4E6BC1688727D00F3F951 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6BB1688727D00F3F951 /* CoreGraphics.framework */; };
+		A1B4E6C0168872B400F3F951 /* LBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4E6BF168872B400F3F951 /* LBorderView.m */; };
+		A1B4E6C1168872C600F3F951 /* LBorderView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B4E6BE168872B400F3F951 /* LBorderView.h */; };
+		A1B4E6CA1688733100F3F951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6B71688726F00F3F951 /* UIKit.framework */; };
+		A1B4E6CB1688733100F3F951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6A51688722C00F3F951 /* Foundation.framework */; };
+		A1B4E6CC1688733100F3F951 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6BB1688727D00F3F951 /* CoreGraphics.framework */; };
+		A1B4E6F21688738200F3F951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4E6EA1688738200F3F951 /* AppDelegate.m */; };
+		A1B4E6F31688738200F3F951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4E6EC1688738200F3F951 /* ViewController.m */; };
+		A1B4E6F41688738200F3F951 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B4E6ED1688738200F3F951 /* ViewController.xib */; };
+		A1B4E6F61688738200F3F951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4E6F11688738200F3F951 /* main.m */; };
+		A1B4E6F7168873A200F3F951 /* libLBorderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6A21688722C00F3F951 /* libLBorderView.a */; };
+		A1B4E6F81688746C00F3F951 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4E6B91688727700F3F951 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B4E6A01688722C00F3F951 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A1B4E6C1168872C600F3F951 /* LBorderView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1A3B4E1168884E2007C55C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A1B4E6A21688722C00F3F951 /* libLBorderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLBorderView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4E6A51688722C00F3F951 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1B4E6B71688726F00F3F951 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1B4E6B91688727700F3F951 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1B4E6BB1688727D00F3F951 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1B4E6BE168872B400F3F951 /* LBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBorderView.h; sourceTree = "<group>"; };
+		A1B4E6BF168872B400F3F951 /* LBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBorderView.m; sourceTree = "<group>"; };
+		A1B4E6C3168872E900F3F951 /* LBorderView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBorderView-Prefix.pch"; sourceTree = "<group>"; };
+		A1B4E6C81688733100F3F951 /* LBorderViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBorderViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4E6E91688738200F3F951 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1B4E6EA1688738200F3F951 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1B4E6EB1688738200F3F951 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1B4E6EC1688738200F3F951 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1B4E6ED1688738200F3F951 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A1B4E6EF1688738200F3F951 /* LBorderViewSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LBorderViewSample-Info.plist"; sourceTree = "<group>"; };
+		A1B4E6F01688738200F3F951 /* LBorderViewSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBorderViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		A1B4E6F11688738200F3F951 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B4E69F1688722C00F3F951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4E6BC1688727D00F3F951 /* CoreGraphics.framework in Frameworks */,
+				A1B4E6BA1688727800F3F951 /* QuartzCore.framework in Frameworks */,
+				A1B4E6B81688726F00F3F951 /* UIKit.framework in Frameworks */,
+				A1B4E6A61688722C00F3F951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4E6C51688733100F3F951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4E6F81688746C00F3F951 /* QuartzCore.framework in Frameworks */,
+				A1B4E6F7168873A200F3F951 /* libLBorderView.a in Frameworks */,
+				A1B4E6CA1688733100F3F951 /* UIKit.framework in Frameworks */,
+				A1B4E6CB1688733100F3F951 /* Foundation.framework in Frameworks */,
+				A1B4E6CC1688733100F3F951 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B4E6971688722C00F3F951 = {
+			isa = PBXGroup;
+			children = (
+				A1A3B4E1168884E2007C55C4 /* README.md */,
+				A1B4E6A71688722C00F3F951 /* LBorderView */,
+				A1B4E6CD1688733100F3F951 /* LBorderViewSample */,
+				A1B4E6A41688722C00F3F951 /* Frameworks */,
+				A1B4E6A31688722C00F3F951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B4E6A31688722C00F3F951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6A21688722C00F3F951 /* libLBorderView.a */,
+				A1B4E6C81688733100F3F951 /* LBorderViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B4E6A41688722C00F3F951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6BB1688727D00F3F951 /* CoreGraphics.framework */,
+				A1B4E6B91688727700F3F951 /* QuartzCore.framework */,
+				A1B4E6B71688726F00F3F951 /* UIKit.framework */,
+				A1B4E6A51688722C00F3F951 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1B4E6A71688722C00F3F951 /* LBorderView */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6BD168872B400F3F951 /* Classes */,
+				A1B4E6C2168872E900F3F951 /* Supporting Files */,
+			);
+			path = LBorderView;
+			sourceTree = "<group>";
+		};
+		A1B4E6BD168872B400F3F951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6BE168872B400F3F951 /* LBorderView.h */,
+				A1B4E6BF168872B400F3F951 /* LBorderView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1B4E6C2168872E900F3F951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6C3168872E900F3F951 /* LBorderView-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1B4E6CD1688733100F3F951 /* LBorderViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6E81688738200F3F951 /* Classes */,
+				A1B4E6EE1688738200F3F951 /* Supporting Files */,
+			);
+			path = LBorderViewSample;
+			sourceTree = "<group>";
+		};
+		A1B4E6E81688738200F3F951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6E91688738200F3F951 /* AppDelegate.h */,
+				A1B4E6EA1688738200F3F951 /* AppDelegate.m */,
+				A1B4E6EB1688738200F3F951 /* ViewController.h */,
+				A1B4E6EC1688738200F3F951 /* ViewController.m */,
+				A1B4E6ED1688738200F3F951 /* ViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1B4E6EE1688738200F3F951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4E6EF1688738200F3F951 /* LBorderViewSample-Info.plist */,
+				A1B4E6F01688738200F3F951 /* LBorderViewSample-Prefix.pch */,
+				A1B4E6F11688738200F3F951 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B4E6A11688722C00F3F951 /* LBorderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B4E6B01688722D00F3F951 /* Build configuration list for PBXNativeTarget "LBorderView" */;
+			buildPhases = (
+				A1B4E69E1688722C00F3F951 /* Sources */,
+				A1B4E69F1688722C00F3F951 /* Frameworks */,
+				A1B4E6A01688722C00F3F951 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBorderView;
+			productName = LBorderView;
+			productReference = A1B4E6A21688722C00F3F951 /* libLBorderView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1B4E6C71688733100F3F951 /* LBorderViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B4E6E51688733100F3F951 /* Build configuration list for PBXNativeTarget "LBorderViewSample" */;
+			buildPhases = (
+				A1B4E6C41688733100F3F951 /* Sources */,
+				A1B4E6C51688733100F3F951 /* Frameworks */,
+				A1B4E6C61688733100F3F951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBorderViewSample;
+			productName = LBorderViewSample;
+			productReference = A1B4E6C81688733100F3F951 /* LBorderViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B4E6991688722C00F3F951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luka Gabric";
+			};
+			buildConfigurationList = A1B4E69C1688722C00F3F951 /* Build configuration list for PBXProject "LBorderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1B4E6971688722C00F3F951;
+			productRefGroup = A1B4E6A31688722C00F3F951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B4E6A11688722C00F3F951 /* LBorderView */,
+				A1B4E6C71688733100F3F951 /* LBorderViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B4E6C61688733100F3F951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4E6F41688738200F3F951 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B4E69E1688722C00F3F951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4E6C0168872B400F3F951 /* LBorderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4E6C41688733100F3F951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4E6F21688738200F3F951 /* AppDelegate.m in Sources */,
+				A1B4E6F31688738200F3F951 /* ViewController.m in Sources */,
+				A1B4E6F61688738200F3F951 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B4E6AE1688722D00F3F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1B4E6AF1688722D00F3F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B4E6B11688722D00F3F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LBorderView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBorderView/Supporting Files/LBorderView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1B4E6B21688722D00F3F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LBorderView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBorderView/Supporting Files/LBorderView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1B4E6E61688733100F3F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBorderViewSample/Supporting Files/LBorderViewSample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LBorderViewSample/Supporting Files/LBorderViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1B4E6E71688733100F3F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBorderViewSample/Supporting Files/LBorderViewSample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LBorderViewSample/Supporting Files/LBorderViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B4E69C1688722C00F3F951 /* Build configuration list for PBXProject "LBorderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4E6AE1688722D00F3F951 /* Debug */,
+				A1B4E6AF1688722D00F3F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B4E6B01688722D00F3F951 /* Build configuration list for PBXNativeTarget "LBorderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4E6B11688722D00F3F951 /* Debug */,
+				A1B4E6B21688722D00F3F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B4E6E51688733100F3F951 /* Build configuration list for PBXNativeTarget "LBorderViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4E6E61688733100F3F951 /* Debug */,
+				A1B4E6E71688733100F3F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B4E6991688722C00F3F951 /* Project object */;
+}
