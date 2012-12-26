@@ -13,7 +13,7 @@ Integrating into your project as static library
 1. clone the LBorderView git repository e.g. git clone git://github.com/lukagabric/LBorderView.git
 2. add LBorderView.xcodeproj to your project, make sure "Copy items into ..." is unchecked
 3. in your target's Build Phases, under Link Binary With Libraries, click on the (+) and add the libLBorderView.a library, CoreGraphics.framework and QuartzCore.framework.
-4. add the relative path to the LAbstractParser header in your "User Header Search Path" Build Setting
+4. add the relative path to the LBorderView header in your "User Header Search Path" Build Setting
 5. add -ObjC and -all_load to Other Linker Flags in your target's build settings
 
 Implementation sample
