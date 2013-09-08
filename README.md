@@ -3,7 +3,7 @@ LBorderView
 
 iOS UIView with dashed or solid line border.
 
-[![](http://lukagabric.com/wp-content/uploads/2012/07/borderScreenShot.png)](http://iphonedev.lukagabric.com/wp-content/uploads/2012/07/borderScreenShot.png)
+[![](http://lukagabric.com/wp-content/uploads/2012/07/borderScreenShot.png)](http://lukagabric.com/wp-content/uploads/2012/07/borderScreenShot.png)
 
 You may use the LBorderView class files in your project directly, or you may follow the steps below to clone the repo and use it as static library in your project.
 
