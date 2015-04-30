@@ -101,7 +101,7 @@
 	_shapeLayer.fillColor = [[UIColor clearColor] CGColor];
 	_shapeLayer.strokeColor = [lineColor CGColor];
 	_shapeLayer.lineWidth = borderWidth;
-	_shapeLayer.lineDashPattern = _borderType == BorderTypeDashed ? [NSArray arrayWithObjects:[NSNumber numberWithInt:dashPattern1], [NSNumber numberWithInt:dashPattern2], nil] : nil;
+	_shapeLayer.lineDashPattern = _borderType == BorderTypeDashed ? [NSArray arrayWithObjects:[NSNumber numberWithInteger:dashPattern1], [NSNumber numberWithInteger:dashPattern2], nil] : nil;
 	_shapeLayer.lineCap = kCALineCapRound;
     
     //_shapeLayer is added as a sublayer of the view
